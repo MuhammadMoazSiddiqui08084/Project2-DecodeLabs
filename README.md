@@ -2,11 +2,11 @@
 
 A simple and efficient backend API for managing tasks, built with Node.js and Express.
 
-## 📋 Project Overview
+## Project Overview
 
 This is **DecodeLabs Project 2** — a REST API that provides complete task management functionality. The API supports creating, reading, updating, and deleting tasks with features like status tracking and priority levels.
 
-## ✨ Features
+## Features
 
 - **CRUD Operations**: Full Create, Read, Update, Delete functionality for tasks
 - **Task Status Tracking**: Tasks can be marked as `pending`, `in-progress`, or `completed`
@@ -15,7 +15,7 @@ This is **DecodeLabs Project 2** — a REST API that provides complete task mana
 - **RESTful API Design**: Clean and intuitive endpoint structure
 - **JSON Responses**: Structured JSON responses with success indicators and metadata
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -40,7 +40,7 @@ npm start
 
 The API will be available at `http://localhost:3000`
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -78,11 +78,11 @@ curl -X PUT http://localhost:3000/tasks/1 \
   }'
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 - **express** (^4.18.2): Fast, unopinionated web framework for Node.js
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 .
@@ -91,7 +91,7 @@ curl -X PUT http://localhost:3000/tasks/1 \
 └── README.md       # This file
 ```
 
-## 📝 Task Properties
+## Task Properties
 
 Each task object contains:
 
@@ -100,7 +100,7 @@ Each task object contains:
 - **status** (string): One of `pending`, `in-progress`, `completed`
 - **priority** (string): One of `low`, `medium`, `high`
 
-## 🎯 Sample Tasks
+## Sample Tasks
 
 The API comes pre-populated with sample tasks:
 
@@ -109,7 +109,7 @@ The API comes pre-populated with sample tasks:
 3. "Write API documentation" - pending - medium priority
 4. "Test all endpoints" - pending - low priority
 
-## 🚦 Status and Priority Values
+## Status and Priority Values
 
 **Valid Statuses:**
 - `pending` - Task is waiting to be started
@@ -121,11 +121,11 @@ The API comes pre-populated with sample tasks:
 - `medium` - Medium importance
 - `high` - High importance
 
-## 👨‍💼 About DecodeLabs
+## About DecodeLabs
 
 This project is part of the DecodeLabs internship program, focusing on backend API development and REST principles.
 
-## 📄 License
+## License
 
 This project is part of the DecodeLabs internship program.
 
